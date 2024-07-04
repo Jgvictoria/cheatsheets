@@ -124,11 +124,17 @@ events..... *elaborate further*
 
 #### Event types (proposal 1)
 
-- product-draft-created
-- product-sent-for-approval
+- product-draft-created (or product-proposal-created)
+- product-sent-for-approval (or product-proposal-submitted or product-submitted-for-approval)
 - product-released
 - product-rejected
 - product-term-and-condition-modified
+
+Others?
+- *product-discontinuation-announced* -> no longer available lfs
+- *product-retired*, *product-sunsetted* -> obsolete lfc
+- *product-marketing-started* -> not a status
+- *product-discount-available* -> ?
 
 **product-released event sample**
 
